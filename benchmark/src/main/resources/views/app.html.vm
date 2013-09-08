@@ -1,0 +1,6 @@
+#foreach($param in $params)
+<dl>
+<dt>${param.get("title")}</dt>
+<dd>${param.get("description")}</dd>
+</dl>
+#end

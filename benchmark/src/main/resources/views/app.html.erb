@@ -1,0 +1,6 @@
+<%- params.each do |v| -%>
+<dl>
+  <dt><%= v.get("title") %></dt>
+  <dd><%= v.get("description") %></dd>
+</dl>
+<%- end -%>
